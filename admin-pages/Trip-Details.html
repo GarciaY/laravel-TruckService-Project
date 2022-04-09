@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=Ddevice-width, initial-scale=1.e">
+        
+
+        <title>Trip Details</title>
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="admin-css/User-Bookings.css">
+        <!-- Box Icons -->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- Font Awsome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        
+        
+       
+    </head>
+<body>
+      <!-- Header -->
+      <header>
+        <a href="#" class="logo"><img src="../img/Truck-Location-Logo-3.png" alt=""></a>
+       
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+          
+            <li><a href="Truck-Services.html">Truck Services</a></li>
+            <li><a href="admin-Billing-List.html">Billing</a></li>
+            <li><a href="User-Bookings.html">User Bookings</a></li>
+            <li><a href="Trip-Details.html">Trip Details</a></li>
+        </ul>
+        <div class="header-btn">
+            <a  class="sign-up" >Admin Yuri Garcia</a>
+         
+            <a href="admin-sign-in.html" class="sign-in"><i class='fas fa-sign-out-alt'></i>Logout</a>
+        </div>
+    </header>
+
+   <br> <br> <br> <br>
+        
+        <h1 style="text-align: center;">Trip Details</h1>
+        <hr>
+               <!-- search bar right align -->
+               <div class="search">
+              
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search. . ."
+                        name="search">
+                    <button>
+                        <i class="fa fa-search"
+                            style="font-size: 18px;">
+                        </i>
+                    </button>
+                </form>
+            </div>
+    <!-- Tables -->
+    <table class="content-table">
+        <thead>
+          <tr>
+            <th>Booking ID</th>
+            <th>Total KM</th>
+            <th>Service Charge</th>
+            <th>VAT</th>
+            <th>Total Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>12</td>
+            <td>₱300</td>
+            
+            <td>₱200</td>
+            
+            <td>Yes</td>
+            
+          </tr>
+          <tr class="active-row">
+            <td>2</td>
+            <td>10</td>
+            <td>₱200</td>
+           
+            <td>₱200</td>
+           
+            <td>No</td>
+          
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>5</td>
+            <td>₱100</td>
+         
+            <td>₱200</td>
+          
+            <td>Yes</td>
+           
+           
+          </tr>
+        </tbody>
+      </table>
+
+</body>
+</html>

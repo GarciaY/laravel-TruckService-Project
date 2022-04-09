@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Ddevice-width, initial-scale=1.e">
+    <title>Edit User Account</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/edit-user-account.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" 
+    crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo"><img src="img/Truck-Location-Logo-3.png" alt=""></a>
+       
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+          
+            <li><a href="home.html">Home</a></li>
+            <!-- <li><a href="home.html">Rent</a></li>
+            <li><a href="home.html">Services</a></li>
+            <li><a href="home.html">About</a></li>
+            <li><a href="home.html">Review</a></li> -->
+            <li><a href="bookings.html">Bookings</a></li>
+        </ul>
+        <div class="header-btn">
+            <a  class="sign-up" href="edit-user-account.html">Yuri Garcia</a>
+         
+            <a href="index.html" class="sign-in"><i class='fas fa-sign-out-alt'></i>Logout</a>
+        </div>
+    </header>
+
+   <!-- Form -->
+   <div class="form">
+    <button class="back-btn" > 
+        <label for="back-btn">Go back</label>
+        <input id="back-btn" type="button" onclick="history.back()" style="display: none;">
+    </button>
+    <h1 style="text-align: center;">Your Account</h1>
+    <p style="text-align: center;">You can edit your account here</p>
+    <hr>
+    <div class="wrapper">
+        <form>
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" value="Yuri">
+                <label>Last Name</label>
+                <input type="text" placeholder="Last Name" value="Garcia">
+                <label>Username</label>
+                <input type="text" placeholder="Username" value="yuriG">
+                <label>Email</label>
+                <input type="email" placeholder="Email Address" value="yuri@email.com">
+                <label>Mobile Number</label>
+                <input type="number" placeholder="Mobile Number" value="091209131">
+                <label>Password</label>
+                <input type="password" placeholder="Password" value="asgkasgamf">
+            <button align="center" class="sign-up-btn">Save Changes</button>
+        </form>
+       
+    </div>
+</div>
+    <!-- ScrolLReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link to JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>
